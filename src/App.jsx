@@ -1,11 +1,14 @@
 import React from "react";
 import TrafficLight from "./componentes/TrafficLight";
+import Logo from "./componentes/Logo";
 
 const App = () => {
   return (
-  
-        <TrafficLight />
-      
+    <>
+      <Logo />
+      <TrafficLight />
+    </>
+
   );
 }
 
